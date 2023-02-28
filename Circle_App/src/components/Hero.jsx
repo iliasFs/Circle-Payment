@@ -41,13 +41,14 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-6 `}>
-        <img src={robot} alt="billing"  className="w-[100%] h-[100%] z-[5] object-contain"/>
+        <img
+          src={robot}
+          alt="billing"
+          className="w-[100%] h-[100%] z-[5] object-contain"
+        />
         {/* Gradients behind image */}
 
-      
-      <div className="absolute z-[1] w-[80%] h-[80%] bottom-40 white__gradient rounded-full"></div>
-      
-      
+        <div className="absolute z-[1] w-[80%] h-[80%] bottom-40 white__gradient rounded-full"></div>
       </div>
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
