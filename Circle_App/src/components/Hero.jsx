@@ -49,6 +49,7 @@ const Hero = () => {
         {/* Gradients behind image */}
 
         <div className="absolute z-[1] w-[80%] h-[80%] bottom-40 white__gradient rounded-full"></div>
+        <div className="absolute z-[1] w-[50%] h-[50%] bottom-40 pink__gradient rounded-full"></div>
       </div>
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
